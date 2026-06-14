@@ -1,0 +1,134 @@
+:root { font-family: "Roboto", sans-serif;
+min-height:100%;}
+body {margin: 0;
+min-height:100%;}
+
+.cabecalho {
+    display: flex;
+    justify-content:space-between;
+    background-color: #2A2A2A;
+    align-items: center;
+    margin-bottom: 0;
+   
+}
+h1 {
+    padding-left: 2.5em;
+}
+.menu{list-style-type: none;
+display: flex;
+gap: 2em;
+padding-right: 6em;
+}
+
+.link1 {text-decoration: none;
+color: #FED001;
+outline: 2px solid #FED001;
+padding: 0.8em;
+text-transform: uppercase;}
+
+.p1 {
+    background-color: #FFFFE0;
+    background-image: url(imagens/HeroImage.png);
+    background-repeat: no-repeat;
+    padding: 10em;
+    background-position: right;
+    
+    
+}
+h2 {font-size: 4.5em;
+min-width: 10%;
+width: 7em;
+margin-top: 0;
+line-height: 1.5em;
+}
+
+.about {background-color: #FED001;
+text-decoration: none;
+color: black;
+border-radius: 0.5em;
+font-weight: bold;
+padding: 1.5em 3em 1.5em 3em
+}
+h3 {text-align: center;
+font-size: 2em;}
+
+.cursos {list-style-type: none;
+display: flex;
+justify-content: center;
+align-items: center;
+border-top-left-radius:2em ;
+border-top-right-radius: 2em;
+gap: 0.8em;
+margin: 1px;
+
+}
+.item {
+    /*width: 25.2em;*/
+    border-top-left-radius:2em ;
+border-top-right-radius: 2em;
+border-bottom-left-radius:.5em ;
+border-bottom-right-radius: .5em;
+
+background-color: rgb(255, 255, 255);
+box-shadow: .5px .5px black;
+
+}
+h4 {font-size: 1.4em;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.desc {max-width: 90%;
+    width: 20em;
+    
+    margin-left: 1em;
+    font-size: 1.1em;
+}
+.ver {background-color: #FED001;
+text-decoration: none;
+color: black;
+border-radius: 0.5em;
+font-weight: bold;
+padding: 1em 4em 1em 4em}
+
+.container1 {padding-top: 5em;
+    padding-bottom: 7em;
+text-align: center;}
+
+.container2 {background-image: url(imagens/nossa-escola.png);
+background-color:  #0a3872;
+background-repeat: no-repeat;
+color: white;
+padding: 2em;
+background-position: left bottom;
+display: flex;
+flex-direction: column;
+
+align-items: flex-end;
+
+}
+h5 {font-size: 3em;
+    text-align: right;
+}
+.container2 p {font-size: 1.2em;
+max-width: 660px;
+text-align: right;
+}
+
+h6 {font-weight: bold;
+font-size: 2em;
+text-align: center;}
+
+.container3 {display: flex;
+flex-direction: column;
+}
+.container3 li {list-style-type: none;
+    text-align: right;
+    margin-right: 3em;
+}
+.container3 img {margin: 0 3em;}
+
+footer {background-color: #2a2a2a;
+padding: 1.5em;
+color: white;
+text-align: center;}
